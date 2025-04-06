@@ -62,6 +62,7 @@ m = 0
 b = 0
 alpha = 0.001
 epochs = 300
+
 for i in range(epochs):
     if i % 50 == 0:
         print(f"Epoch {i}: m = {m}, b = {b}")
